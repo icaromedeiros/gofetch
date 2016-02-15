@@ -1,5 +1,7 @@
-def render():
-    pass
-
 from jinja2 import Environment, PackageLoader
-env = Environment(loader=PackageLoader('gofetch', 'templates'))
+
+jinja_env = Environment(loader=PackageLoader('gofetch', 'templates'))
+
+
+def render(template_string_or_file, param_dict):
+    pass
