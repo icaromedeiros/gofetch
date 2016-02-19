@@ -21,4 +21,6 @@
 - Create a django admin (or alike) to manage queries including metadata such as tags to ease search and encourage reuse
 - Execute queries within python (i.e. without hive command), using official drivers (contrib?)
 - More options to rendered result (dataframe pickle, sql, etc)
-- Use some library to better render results? https://github.com/turicas/rows
+- Use some library to better render results?
+   * https://github.com/turicas/rows
+   * https://github.com/EliotBerriot/lifter
